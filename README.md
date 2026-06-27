@@ -6,7 +6,7 @@ This repository is a collection of hands-on UI projects designed to help develop
 
 ---
 
-## 🚀 Tech Stack
+## Tech Stack
 
 * React (JavaScript)
 * React (TypeScript)
@@ -15,7 +15,7 @@ This repository is a collection of hands-on UI projects designed to help develop
 
 ---
 
-# 📚 Learning Roadmap
+# Learning Roadmap
 
 ## 🟢 Phase 1 — React + JavaScript
 
@@ -68,7 +68,7 @@ Tailwind-Lab/
 
 ---
 
-# 📖 Concepts Covered
+# Concepts Covered
 
 * Layouts
 * Flexbox
@@ -90,7 +90,7 @@ Tailwind-Lab/
 
 ---
 
-# 🏆 Completed Projects
+# 🏆Completed Projects
 
 * [x] 01 — Profile Card
 
