@@ -1,16 +1,166 @@
-# React + Vite
+# 👤 Project 01 — Profile Card
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive profile card built with **React**, **Vite**, and **Tailwind CSS v4**. This project focuses on learning Tailwind's core utility classes by creating a clean, modern UI component.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📸 Preview
 
-## React Compiler
+> Add a screenshot after completing the project.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```text
+screenshots/
+├── desktop.png
+└── mobile.png
+```
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Tech Stack
+
+* React (JavaScript)
+* Vite
+* Tailwind CSS v4
+
+---
+
+## 🎯 Learning Objectives
+
+This project introduces the fundamentals of Tailwind CSS:
+
+* Setting up Tailwind CSS v4 with Vite
+* Understanding utility-first styling
+* Building layouts with Flexbox
+* Creating reusable UI components
+* Applying spacing, colors, and typography
+* Designing responsive cards
+
+---
+
+## ✨ Features
+
+* Responsive profile card
+* Circular avatar
+* Name and designation section
+* Skill badges
+* Action buttons
+* Clean and minimal UI
+
+---
+
+## 📚 Tailwind Concepts Practiced
+
+### Layout
+
+* `flex`
+* `flex-col`
+* `items-center`
+* `justify-center`
+
+### Sizing
+
+* `w-*`
+* `h-*`
+* `max-w-*`
+* `min-h-screen`
+
+### Spacing
+
+* `p-*`
+* `px-*`
+* `py-*`
+* `gap-*`
+
+### Typography
+
+* `text-*`
+* `font-*`
+
+### Colors
+
+* `bg-*`
+* `text-*`
+
+### Borders
+
+* `border`
+* `rounded-*`
+* `rounded-full`
+
+### Responsive Design
+
+* `w-full`
+* `max-w-md`
+
+---
+
+## 🧠 What I Learned
+
+* How Tailwind's utility classes replace traditional CSS.
+* How to center content using Flexbox.
+* How to structure a UI into logical sections.
+* How spacing (`padding`, `margin`, and `gap`) affects layout.
+* How to create reusable styling patterns with Tailwind.
+
+---
+
+## 📂 Project Structure
+
+```text
+01-profile-card-js/
+│
+├── public/
+├── src/
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+---
+
+## 🛠️ Installation
+
+Clone the repository and navigate to this project.
+
+```bash
+npm install
+```
+
+Start the development server.
+
+```bash
+npm run dev
+```
+
+Build for production.
+
+```bash
+npm run build
+```
+
+---
+
+## 🚀 Future Improvements
+
+* Add profile image support
+* Add social media icons
+* Add dark mode
+* Add hover animations
+* Make skills dynamically rendered using `map()`
+* Convert the profile card into reusable React components
+
+---
+
+## 📖 Key Takeaway
+
+This project establishes the foundation for the **Tailwind-Lab** series by introducing the most frequently used Tailwind CSS utilities. The concepts learned here—layout, spacing, typography, colors, and component structure—will be reused throughout the upcoming projects.
+
+---
+
+### Part of the **Tailwind-Lab** learning series.
+
+**Next Project → 02 — Pricing Card** 🚀
